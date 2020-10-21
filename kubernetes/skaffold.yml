@@ -1,0 +1,18 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+    - image: gaddesurendrakumar/invoice
+      context: ../invoice
+      jib: {}
+    - image: gaddesurendrakumar/notification
+      context: ../notification
+      jib: {}
+    - image: gaddesurendrakumar/store
+      context: ../store
+      jib: {}
+  tagPolicy:
+    envTemplate:
+      template: '{{.IMAGE_NAME}}:latest'
+deploy:
+  kustomize: {}

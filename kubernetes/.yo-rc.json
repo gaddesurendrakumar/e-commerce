@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["invoice", "notification", "store"],
+    "directoryPath": "../",
+    "clusteredDbApps": [],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "MTFhOTgxZWYwNjBlMTRhYjcyMDE0YmQ4NmRiMmE0Nzc4NDg4ZjNhZThjNzdjOWEyM2JlNjdmZDk0YzhkMGE2ODRjN2E4MmJlYTNjNDVmMGQ0YjQyOTFiNTczNzNmODg1MzJjYw==",
+    "dockerRepositoryName": "gaddesurendrakumar",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "jhipster",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "elk",
+    "istio": false
+  }
+}
