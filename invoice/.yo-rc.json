@@ -2,7 +2,7 @@
   "generator-jhipster": {
     "authenticationType": "jwt",
     "cacheProvider": "hazelcast",
-    "serverPort": "8081",
+    "serverPort": "8083",
     "serviceDiscoveryType": "eureka",
     "skipUserManagement": true,
     "baseName": "invoice",
